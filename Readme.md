@@ -12,4 +12,4 @@ Design Inspired
 
 ## Website Preview
 ### [Simple JS Calculator](https://shz-code.github.io/simple-js-calculator/)
-![Frontend Bootcamp](./website-preview.jpeg)
+![Simple JS Calculator](./website-preview.jpeg)
