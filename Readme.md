@@ -1,5 +1,5 @@
 # Simple JS Calculator
-Bootstrap landing page design for Beginer Web Development Session IUBAT.
+Fully functional Javascript Calculator for Beginer Web Development Session IUBAT.
 - 5th Project
 
 Design Inspired
@@ -11,5 +11,5 @@ Design Inspired
 - Working Calculator 
 
 ## Website Preview
-### [Simple JS Calculator](shz-code.github.io/simple-js-calculator/)
+### [Simple JS Calculator](https://shz-code.github.io/simple-js-calculator/)
 ![Frontend Bootcamp](./website-preview.jpeg)
