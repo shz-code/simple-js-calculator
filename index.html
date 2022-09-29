@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Calc</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>JS Calculator</h1>
+    <div class="calc">
+      <table class="table">
+        <tr>
+          <td colspan="3"> <input type="text" disabled id="display"/> </td>
+          <td> <span class="special" onclick="remove()">C</span> </td>
+        </tr>
+        <tr>
+          <td> <span class="inp">1</span> </td>
+          <td> <span class="inp">2</span> </td>
+          <td> <span class="inp">3</span> </td>
+          <td> <span class="inp">/</span> </td>
+        </tr>
+        <tr>
+          <td> <span class="inp">4</span> </td>
+          <td> <span class="inp">5</span> </td>
+          <td> <span class="inp">6</span> </td>
+          <td> <span class="inp">-</span> </td>
+        </tr>
+        <tr>
+          <td> <span class="inp">7</span> </td>
+          <td> <span class="inp">8</span> </td>
+          <td> <span class="inp">9</span> </td>
+          <td> <span class="inp">+</span> </td>
+        </tr>
+        <tr>
+          <td> <span class="inp">0</span> </td>
+          <td> <span class="inp">.</span> </td>
+          <td> <span  class="special" onclick="calculate()">=</span> </td>
+          <td> <span class="inp">*</span> </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
